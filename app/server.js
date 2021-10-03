@@ -1,8 +1,5 @@
 let express = require('express');
 let path = require('path');
-let fs = require('fs');
-let MongoClient = require('mongodb').MongoClient;
-let bodyParser = require('body-parser');
 let app = express();
 const typeorm = require('typeorm');
 require('dotenv').config()
